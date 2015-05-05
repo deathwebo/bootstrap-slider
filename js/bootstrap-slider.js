@@ -1188,6 +1188,7 @@
 				this.setValue(val, true, true);
 
 				this._setDataVal(val);
+
 				this._trigger('slideStop', val);
 				this._layout();
 
@@ -1252,6 +1253,7 @@
 
 				this._layout();
 				this._setDataVal(val);
+
 				this._trigger('slideStop', val);
 
 				return false;
